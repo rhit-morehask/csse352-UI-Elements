@@ -42,7 +42,7 @@ public class WeaponPortraitInfo : MonoBehaviour
                 spriteRenderer.sprite = weaponSprites[4];
                 break;
             default:
-                Debug.LogError("Nope!");
+                Debug.LogError("Invalid weapon selection");
                 break;
         }
     }
